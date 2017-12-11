@@ -1,0 +1,46 @@
+[ {
+  "providerId" : "dropbox",
+  "authorizationUrl" : "https://www.dropbox.com/1/oauth2/authorize",
+  "accessTokenUrl" : "https://api.dropbox.com/1/oauth2/token",
+  "clientId" : "m7uroz6cuzo03bg",
+  "clientSecret" : "lbzwhagco515mns",
+  "sendAccessTokenAs" : "HEADER",
+  "accessTokenParamName" : "Bearer",
+  "scopes" : [ ]
+}, {
+  "providerId" : "amazon",
+  "authorizationUrl" : "https://www.amazon.com/ap/oa",
+  "accessTokenUrl" : "https://api.amazon.com/auth/o2/token",
+  "clientId" : "amzn1.application-oa2-client.75508fd0d536415baf2d535779a9c07a",
+  "clientSecret" : "2f3800c993bd7d3d56abe66c87062cebc72be3c86b5009d1714be4054b737cd6",
+  "sendAccessTokenAs" : "HEADER",
+  "accessTokenParamName" : "Bearer",
+  "scopes" : [ {
+    "name" : "Basic Profile",
+    "value" : "profile"
+  } ]
+}, {
+  "providerId" : "box",
+  "authorizationUrl" : "https://account.box.com/api/oauth2/authorize",
+  "accessTokenUrl" : "https://api.box.com/oauth2/token",
+  "clientId" : "8pcyc85qfb063gi031bxobafyu5rmuv6",
+  "clientSecret" : "uz1xGQ7Borlm2z3QqUKt7UNMUAOwbP28",
+  "sendAccessTokenAs" : "HEADER",
+  "accessTokenParamName" : "Bearer",
+  "scopes" : [ {
+    "name" : "scope",
+    "value" : "root_readwrite"
+  } ]
+}, {
+  "providerId" : "outlook",
+  "authorizationUrl" : "https://login.microsoftonline.com/common/oauth2/v2.0/authorize",
+  "accessTokenUrl" : "https://login.microsoftonline.com/common/oauth2/v2.0/token",
+  "clientId" : "f09ab907-dd4c-419c-a17e-e228d3276b70",
+  "clientSecret" : "bpbFPKzhYHCnnbkDixUHrZs",
+  "sendAccessTokenAs" : "HEADER",
+  "accessTokenParamName" : "Bearer",
+  "scopes" : [ {
+    "name" : "scope",
+    "value" : "https://outlook.office.com/calendars.readwrite"
+  } ]
+} ]

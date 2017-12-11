@@ -1,0 +1,46 @@
+[ {
+  "providerId" : "dropbox",
+  "authorizationUrl" : "${oauth2.dropbox.authorizationUrl}",
+  "accessTokenUrl" : "${oauth2.dropbox.accessTokenUrl}",
+  "clientId" : "${oauth2.dropbox.clientId}",
+  "clientSecret" : "${oauth2.dropbox.clientSecret}",
+  "sendAccessTokenAs" : null,
+  "accessTokenParamName" : null,
+  "scopes" : [ ]
+}, {
+  "providerId" : "amazon",
+  "authorizationUrl" : "${oauth2.amazon.authorizationUrl}",
+  "accessTokenUrl" : "${oauth2.amazon.accessTokenUrl}",
+  "clientId" : "${oauth2.amazon.clientId}",
+  "clientSecret" : "${oauth2.amazon.clientSecret}",
+  "sendAccessTokenAs" : null,
+  "accessTokenParamName" : null,
+  "scopes" : [ {
+    "name" : "Basic Profile",
+    "value" : "profile"
+  } ]
+}, {
+  "providerId" : "box",
+  "authorizationUrl" : "${oauth2.box.authorizationUrl}",
+  "accessTokenUrl" : "${oauth2.box.accessTokenUrl}",
+  "clientId" : "${oauth2.box.clientId}",
+  "clientSecret" : "${oauth2.box.clientSecret}",
+  "sendAccessTokenAs" : null,
+  "accessTokenParamName" : null,
+  "scopes" : [ {
+    "name" : "scope",
+    "value" : "root_readwrite"
+  } ]
+}, {
+  "providerId" : "outlook",
+  "authorizationUrl" : "${oauth2.outlook.authorizationUrl}",
+  "accessTokenUrl" : "${oauth2.outlook.accessTokenUrl}",
+  "clientId" : "${oauth2.outlook.clientId}",
+  "clientSecret" : "${oauth2.outlook.clientSecret}",
+  "sendAccessTokenAs" : null,
+  "accessTokenParamName" : null,
+  "scopes" : [ {
+    "name" : "scope",
+    "value" : "https://outlook.office.com/calendars.readwrite"
+  } ]
+} ]

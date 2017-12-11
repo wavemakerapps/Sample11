@@ -3,6 +3,18 @@
   "type" : "PARTIAL",
   "params" : [ ]
 }, {
+  "name" : "Common_Copy",
+  "type" : "PARTIAL",
+  "params" : [ ]
+}, {
+  "name" : "Common_Copy_Copy",
+  "type" : "PARTIAL",
+  "params" : [ ]
+}, {
+  "name" : "Common_Copy_Copy_Copy",
+  "type" : "PARTIAL",
+  "params" : [ ]
+}, {
   "name" : "Login",
   "type" : "PAGE",
   "params" : [ ]
@@ -16,6 +28,10 @@
   "params" : [ ]
 }, {
   "name" : "header",
+  "type" : "HEADER",
+  "params" : [ ]
+}, {
+  "name" : "header_Copy",
   "type" : "HEADER",
   "params" : [ ]
 }, {

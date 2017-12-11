@@ -1,1 +1,44 @@
-{ }
+{
+  "serviceVariable1" : {
+    "_id" : "wm-serviceVariable1-wm.ServiceVariable-1512986304503",
+    "name" : "serviceVariable1",
+    "owner" : "Page",
+    "category" : "wm.ServiceVariable",
+    "dataBinding" : [ {
+      "target" : "wm_auth_username",
+      "value" : "wavemaker.apps",
+      "type" : "string"
+    }, {
+      "target" : "wm_auth_password",
+      "value" : "pramati123",
+      "type" : "string"
+    }, {
+      "target" : "origin",
+      "value" : "goa",
+      "type" : "string"
+    }, {
+      "target" : "destination",
+      "value" : "pune",
+      "type" : "string"
+    }, {
+      "target" : "sensor",
+      "value" : "a",
+      "type" : "string"
+    } ],
+    "type" : "amazon.RootResponse",
+    "service" : "amazon",
+    "operation" : "invoke",
+    "operationId" : "amazon_RestServiceVirtualController-invoke",
+    "operationType" : "get",
+    "serviceType" : "RestService",
+    "dataSet" : [ ],
+    "isList" : false,
+    "maxResults" : 20,
+    "startUpdate" : true,
+    "autoUpdate" : true,
+    "inFlightBehavior" : "executeLast",
+    "transformationRequired" : false,
+    "saveInPhonegap" : false,
+    "controller" : "RestServiceVirtual"
+  }
+}
