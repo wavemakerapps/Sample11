@@ -41,6 +41,13 @@
             </resource>
             <resource>
                 <filtering>true</filtering>
+                <directory>services/Test/src</directory>
+                <excludes>
+                    <exclude>**/*.java</exclude>
+                </excludes>
+            </resource>
+            <resource>
+                <filtering>true</filtering>
                 <directory>services/amazon/src</directory>
                 <excludes>
                     <exclude>**/*.java</exclude>
@@ -149,6 +156,7 @@
                                 <source>services/MyJavaService1/src</source>
                                 <source>services/MyJavaService2/src</source>
                                 <source>services/MyJavaService3/src</source>
+                                <source>services/Test/src</source>
                                 <source>services/amazon/src</source>
                                 <source>services/authService/src</source>
                                 <source>services/salesdb/src</source>
@@ -357,6 +365,6 @@
         <profile.props.file>development.properties</profile.props.file>
         <spring.version>4.3.9.RELEASE</spring.version>
         <spring.security.version>4.1.2.RELEASE</spring.security.version>
-        <wavemaker.studio.version>9.9.9.3941</wavemaker.studio.version>
+        <wavemaker.studio.version>9.9.9.3944</wavemaker.studio.version>
     </properties>
 </project>
