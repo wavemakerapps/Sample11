@@ -1,0 +1,10 @@
+{
+  "httpBasicAuthUsername" : "",
+  "httpBasicAuthPassword" : "",
+  "endpointAddress" : "http://www.thomas-bayer.com/axis2/services/BLZService",
+  "connectionTimeout" : 10000,
+  "requestTimeout" : 10000,
+  "soapActionURI" : null,
+  "packageName" : "com.sample11.services.thom",
+  "httpHeaders" : { }
+}

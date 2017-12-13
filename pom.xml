@@ -20,6 +20,13 @@
             </resource>
             <resource>
                 <filtering>true</filtering>
+                <directory>services/Calculator1/src</directory>
+                <excludes>
+                    <exclude>**/*.java</exclude>
+                </excludes>
+            </resource>
+            <resource>
+                <filtering>true</filtering>
                 <directory>services/MyJavaService/src</directory>
                 <excludes>
                     <exclude>**/*.java</exclude>
@@ -77,6 +84,41 @@
             <resource>
                 <filtering>true</filtering>
                 <directory>services/securityService/src</directory>
+                <excludes>
+                    <exclude>**/*.java</exclude>
+                </excludes>
+            </resource>
+            <resource>
+                <filtering>true</filtering>
+                <directory>services/servname/src</directory>
+                <excludes>
+                    <exclude>**/*.java</exclude>
+                </excludes>
+            </resource>
+            <resource>
+                <filtering>true</filtering>
+                <directory>services/test1/src</directory>
+                <excludes>
+                    <exclude>**/*.java</exclude>
+                </excludes>
+            </resource>
+            <resource>
+                <filtering>true</filtering>
+                <directory>services/test3/src</directory>
+                <excludes>
+                    <exclude>**/*.java</exclude>
+                </excludes>
+            </resource>
+            <resource>
+                <filtering>true</filtering>
+                <directory>services/testnew/src</directory>
+                <excludes>
+                    <exclude>**/*.java</exclude>
+                </excludes>
+            </resource>
+            <resource>
+                <filtering>true</filtering>
+                <directory>services/thom/src</directory>
                 <excludes>
                     <exclude>**/*.java</exclude>
                 </excludes>
@@ -160,6 +202,7 @@
                         <configuration>
                             <sources>
                                 <source>services/Calculator/src</source>
+                                <source>services/Calculator1/src</source>
                                 <source>services/MyJavaService/src</source>
                                 <source>services/MyJavaService1/src</source>
                                 <source>services/MyJavaService2/src</source>
@@ -169,6 +212,11 @@
                                 <source>services/authService/src</source>
                                 <source>services/salesdb/src</source>
                                 <source>services/securityService/src</source>
+                                <source>services/servname/src</source>
+                                <source>services/test1/src</source>
+                                <source>services/test3/src</source>
+                                <source>services/testnew/src</source>
+                                <source>services/thom/src</source>
                             </sources>
                         </configuration>
                     </execution>
@@ -373,6 +421,6 @@
         <profile.props.file>development.properties</profile.props.file>
         <spring.version>4.3.9.RELEASE</spring.version>
         <spring.security.version>4.1.2.RELEASE</spring.security.version>
-        <wavemaker.studio.version>9.9.9.3945</wavemaker.studio.version>
+        <wavemaker.studio.version>9.9.9.3952</wavemaker.studio.version>
     </properties>
 </project>

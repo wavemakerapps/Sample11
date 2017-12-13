@@ -40,5 +40,18 @@
     "transformationRequired" : false,
     "saveInPhonegap" : false,
     "controller" : "RestServiceVirtual"
+  },
+  "staticVariable1" : {
+    "_id" : "wm-staticVariable1-wm.Variable-1513148233788",
+    "name" : "staticVariable1",
+    "owner" : "Page",
+    "category" : "wm.Variable",
+    "dataBinding" : [ ],
+    "dataSet" : [ {
+      "t" : "qqq"
+    } ],
+    "type" : "string",
+    "isList" : true,
+    "saveInPhonegap" : false
   }
 }

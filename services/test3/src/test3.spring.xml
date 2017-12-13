@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <context:component-scan base-package="com.wavemake.controller,com.wavemake.services "/>
+     <bean class="com.wavemaker.runtime.data.spring.WMPropertyPlaceholderConfigurer">
+            <property name="locations">
+                <list>
+                    <value>
+                        classpath:test3.properties
+                    </value>
+                </list>
+            </property>
+            <property name="ignoreUnresolvablePlaceholders" value="true"/>
+        </bean>
+
+    <bean id="test3SoapServiceSettings" class="com.wavemaker.runtime.soap.SoapServiceSettings">
+            <property name="endpointAddress" value="${test3.endpoint}"/>
+            <property name="httpBasicAuthUsername" value="${test3.username}"/>
+            <property name="httpBasicAuthPassword" value="${test3.password}"/>
+            <property name="connectionTimeout" value="${test3.connectionTimeout}"/>
+            <property name="requestTimeout" value="${test3.requestTimeout}"/>
+            <property name="httpHeaders">
+             <map>
+            </map>
+           </property>
+
+     </bean>
+</beans>
